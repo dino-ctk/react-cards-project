@@ -2,6 +2,7 @@ import Card from "./card/Card.jsx"
 import contacts from "../contacts.js"
 import Condicional from "./condicional.jsx"
 import Login from "./login/Login.jsx"
+import StatePractice from "./statePractice/StatePractice.jsx";
 
 
 function App() {
@@ -42,12 +43,7 @@ function handleClick() {
     // <div>
     //     {isLoggedIn ? AllCardsScreen : <Login isRegisterd= {FetchIsRegisterd}/>}
     // </div>
-    <div>
-      <p className="parag">Neki pragraf</p>
-      <button onClick={handleClick}>stisni me</button>
-
-      <p style={{textDecoration: IsDone ? "line-through" : "none"}}>Neki text</p>
-    </div>
+    <StatePractice/>
   )
 }
 
