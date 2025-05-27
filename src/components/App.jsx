@@ -5,6 +5,8 @@ import Login from "./login/Login.jsx"
 import StatePractice from "./statePractice/StatePractice.jsx";
 import Counter from "./counter/Counter.jsx";
 import SubmitBtn from "./submit-btn/SubmitBtn.jsx";
+import Timer from "./timer/Timer.jsx";
+import FormName from "./form-name/FormName.jsx";
 
 
 function App() {
@@ -47,7 +49,9 @@ function handleClick() {
     // </div>
     // <StatePractice/>
     // <Counter></Counter>
-    <SubmitBtn></SubmitBtn>
+    // <SubmitBtn></SubmitBtn>
+    // <Timer></Timer>
+    <FormName></FormName>
   )
 }
 

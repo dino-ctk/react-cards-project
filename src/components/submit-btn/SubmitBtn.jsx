@@ -27,6 +27,7 @@ function SubmitBtn(){
                 type="text" 
                 placeholder="stavi tekst"
                 onChange={handleOnChange}
+                value={inputVal}
             />
             <button 
                 style={mouse ? {backgroundColor: "black", color: "white"} : {}}
