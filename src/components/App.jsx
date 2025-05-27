@@ -3,6 +3,8 @@ import contacts from "../contacts.js"
 import Condicional from "./condicional.jsx"
 import Login from "./login/Login.jsx"
 import StatePractice from "./statePractice/StatePractice.jsx";
+import Counter from "./counter/Counter.jsx";
+import SubmitBtn from "./submit-btn/SubmitBtn.jsx";
 
 
 function App() {
@@ -43,7 +45,9 @@ function handleClick() {
     // <div>
     //     {isLoggedIn ? AllCardsScreen : <Login isRegisterd= {FetchIsRegisterd}/>}
     // </div>
-    <StatePractice/>
+    // <StatePractice/>
+    // <Counter></Counter>
+    <SubmitBtn></SubmitBtn>
   )
 }
 
