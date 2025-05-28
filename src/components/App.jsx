@@ -7,6 +7,8 @@ import Counter from "./counter/Counter.jsx";
 import SubmitBtn from "./submit-btn/SubmitBtn.jsx";
 import Timer from "./timer/Timer.jsx";
 import FormName from "./form-name/FormName.jsx";
+import BoxGenerator from './boxes/BoxGenerator.jsx'
+import EventTree from "./event-tree/EventTree.jsx";
 
 
 function App() {
@@ -27,7 +29,7 @@ function App() {
     )
   })
 
-  console.log(allContacts);
+  // console.log(allContacts);
 
   const AllCardsScreen = 
   <div>
@@ -51,7 +53,9 @@ function handleClick() {
     // <Counter></Counter>
     // <SubmitBtn></SubmitBtn>
     // <Timer></Timer>
-    <FormName></FormName>
+    // <FormName></FormName>
+    // <BoxGenerator> </BoxGenerator>
+    <EventTree></EventTree>
   )
 }
 
