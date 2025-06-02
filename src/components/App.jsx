@@ -8,7 +8,11 @@ import SubmitBtn from "./submit-btn/SubmitBtn.jsx";
 import Timer from "./timer/Timer.jsx";
 import FormName from "./form-name/FormName.jsx";
 import BoxGenerator from './boxes/BoxGenerator.jsx'
-import EventTree from "./event-tree/EventTree.jsx";
+// import EventTree from "./event-tree/EventTree.jsx";
+import { Route, Routes } from 'react-router-dom';
+import Home from "./navbar/Home.jsx";
+import ContactsList from "./navbar/ContactsList.jsx";
+
 
 
 function App() {
@@ -54,8 +58,12 @@ function handleClick() {
     // <SubmitBtn></SubmitBtn>
     // <Timer></Timer>
     // <FormName></FormName>
-    // <BoxGenerator> </BoxGenerator>
-    <EventTree></EventTree>
+    // <BoxGenerator> </BoxGenerator>    
+    // <EventTree></EventTree>
+    <Routes>
+      <Route path='/' element={<Home/>} />
+      <Route path='/contact' element={<ContactsList/>} />
+    </Routes>
   )
 }
 
